@@ -1,16 +1,20 @@
 import React from 'react'
 
-import { TextField, TextFieldProps } from 'formik-material-ui'
+import { Field } from 'formik'
+import { TextField } from 'formik-material-ui'
+import { TextFieldProps } from '@material-ui/core'
 import { InputAdornment } from '@material-ui/core'
 
 export type FormikTextFieldProps = TextFieldProps & {
+  name: string
   startAdornment?: React.ReactElement
   endAdornment?: React.ReactElement
   readOnly?: boolean
 }
 const FormikTextField: React.FC<FormikTextFieldProps> = ({ startAdornment, endAdornment, InputProps, readOnly = false, ...props }) => {
   return (
-    <TextField
+    <Field
+      component={TextField}
       {...props}
       InputProps={{
         ...InputProps,

@@ -13,3 +13,4 @@ it comes with typescript, rollup, jest, renovate, storybook and github actions
 
 ## Roadmap
 - Adding chromatic for storybook visual testing, approve and document publishing
+- Write all the test

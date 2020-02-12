@@ -1,6 +1,6 @@
 import React from 'react'
 
-import TextField, { FormikTextFieldProps } from './TextField'
+import TextField, { FormikTextFieldProps } from '../TextField'
 
 const FormikTextAreaField: React.FC<FormikTextFieldProps> = props => {
   return (
