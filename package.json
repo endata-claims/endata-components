@@ -1,0 +1,51 @@
+{
+  "name": "react-library-boilerplate-1",
+  "version": "1.0.3",
+  "main": "build/index.js",
+  "module": "build/index.es.js",
+  "jsnext:main": "build/index.es.js",
+  "files": [
+    "build"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "build": "rollup -c",
+    "sb": "start-storybook -p 6006",
+    "build-sb": "build-storybook",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": "16.x.x",
+    "react-dom": "16.x.x"
+  },
+  "devDependencies": {
+    "@babel/core": "7.8.4",
+    "@storybook/addon-actions": "5.3.13",
+    "@storybook/addon-links": "5.3.13",
+    "@storybook/addons": "5.3.13",
+    "@storybook/react": "5.3.13",
+    "@types/enzyme": "3.10.5",
+    "@types/enzyme-adapter-react-16": "1.0.6",
+    "@types/jest": "25.1.2",
+    "@types/react": "16.9.19",
+    "@types/react-dom": "16.9.5",
+    "babel-loader": "8.0.6",
+    "babel-preset-react-app": "9.1.1",
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.2",
+    "enzyme-to-json": "3.4.4",
+    "identity-obj-proxy": "3.0.0",
+    "jest": "25.1.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "rollup": "1.31.0",
+    "rollup-plugin-commonjs": "10.1.0",
+    "rollup-plugin-node-resolve": "5.2.0",
+    "rollup-plugin-peer-deps-external": "2.2.2",
+    "rollup-plugin-sass": "1.2.2",
+    "rollup-plugin-typescript2": "0.26.0",
+    "ts-jest": "25.2.0",
+    "typescript": "3.7.5"
+  }
+}

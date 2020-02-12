@@ -1,0 +1,27 @@
+name: CI
+on:
+  push:
+    paths:
+      - src/**
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Get yarn cache
+        id: yarn-cache
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+          registry-url: "https://registry.npmjs.org"
+      # Install dependencies
+      - run: yarn
+      # Run tests
+      - run: yarn test
+        env:
+          CI: true
+      # deploy storybook
