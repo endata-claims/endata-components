@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paper tests snapshots should render loading 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Paper))
+    className="makeStyles-paperContent-2"
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "height": "100%",
+          "justifyContent": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <WithStyles(ForwardRef(CircularProgress)) />
+    </div>
+  </WithStyles(ForwardRef(Paper))>
+</Fragment>
+`;
+
+exports[`Paper tests snapshots should render with title 1`] = `
+<Fragment>
+  <div
+    className="makeStyles-paperTitle-1"
+  >
+    Paper title
+  </div>
+  <WithStyles(ForwardRef(Paper))
+    className="makeStyles-paperContent-2"
+  />
+</Fragment>
+`;
+
+exports[`Paper tests snapshots should render without crash 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Paper))
+    className="makeStyles-paperContent-2"
+  />
+</Fragment>
+`;

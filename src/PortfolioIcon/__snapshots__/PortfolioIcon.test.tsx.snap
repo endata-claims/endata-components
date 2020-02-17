@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paper tests snapshots should render icon 1`] = `
+<HomeIcon
+  style={
+    Object {
+      "color": "#0f5b78",
+    }
+  }
+/>
+`;
+
+exports[`Paper tests snapshots should render icon 2`] = `
+<LiveTvIcon
+  style={
+    Object {
+      "color": "green",
+    }
+  }
+/>
+`;
+
+exports[`Paper tests snapshots should render icon 3`] = `
+<HealingIcon
+  style={
+    Object {
+      "color": "#d0a11e",
+    }
+  }
+/>
+`;

@@ -1,3 +1,11 @@
+export { default as Paper } from './Paper'
+
+export { default as PortfolioIcon } from './PortfolioIcon'
+
+export { default as Table } from './Table'
+
+export * from './styles'
+
 /**
  * Formik and Material UI integration with props normalized
  */
@@ -21,5 +29,5 @@ export { default as EditorField } from './Formik/EditorField'
 
 export { default as FileField } from './Formik/FileField'
 
-// export { default as CheckboxField } from './CheckboxField'
-// export { default as CheckboxGroupField } from './CheckboxGroupField'
+export { default as CheckboxField } from './Formik/CheckboxField'
+export { default as CheckboxGroupField } from './Formik/CheckboxGroupField'

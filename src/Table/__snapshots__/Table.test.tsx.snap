@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paper tests snapshots should render loading more state 1`] = `
+<WithStyles(ForwardRef(Paper))
+  className="makeStyles-container-1"
+>
+  <Table
+    columns={
+      Array [
+        Object {
+          "Header": "ID",
+          "accessor": "id",
+        },
+        Object {
+          "Header": "Email",
+          "accessor": "email",
+        },
+        Object {
+          "Header": "Name",
+          "accessor": "name",
+        },
+        Object {
+          "Header": "Age",
+          "accessor": "age",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "age": 25,
+          "email": "beatyshot@gmail.com",
+          "id": 1,
+          "name": "Yuki",
+        },
+        Object {
+          "age": 25,
+          "email": "beatyneko@gmail.com",
+          "id": 2,
+          "name": "Yuki",
+        },
+        Object {
+          "age": 25,
+          "email": "beatyblood@gmail.com",
+          "id": 3,
+          "name": "Yuki",
+        },
+      ]
+    }
+  />
+</WithStyles(ForwardRef(Paper))>
+`;
+
+exports[`Paper tests snapshots should render loading state 1`] = `
+<WithStyles(ForwardRef(Paper))
+  className="makeStyles-container-1"
+>
+  <Table
+    columns={
+      Array [
+        Object {
+          "Header": "ID",
+          "accessor": "id",
+        },
+        Object {
+          "Header": "Email",
+          "accessor": "email",
+        },
+        Object {
+          "Header": "Name",
+          "accessor": "name",
+        },
+        Object {
+          "Header": "Age",
+          "accessor": "age",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "age": 25,
+          "email": "beatyshot@gmail.com",
+          "id": 1,
+          "name": "Yuki",
+        },
+        Object {
+          "age": 25,
+          "email": "beatyneko@gmail.com",
+          "id": 2,
+          "name": "Yuki",
+        },
+        Object {
+          "age": 25,
+          "email": "beatyblood@gmail.com",
+          "id": 3,
+          "name": "Yuki",
+        },
+      ]
+    }
+  />
+</WithStyles(ForwardRef(Paper))>
+`;
+
+exports[`Paper tests snapshots should render without crash 1`] = `
+<WithStyles(ForwardRef(Paper))
+  className="makeStyles-container-1"
+>
+  <Table
+    columns={
+      Array [
+        Object {
+          "Header": "ID",
+          "accessor": "id",
+        },
+        Object {
+          "Header": "Email",
+          "accessor": "email",
+        },
+        Object {
+          "Header": "Name",
+          "accessor": "name",
+        },
+        Object {
+          "Header": "Age",
+          "accessor": "age",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "age": 25,
+          "email": "beatyshot@gmail.com",
+          "id": 1,
+          "name": "Yuki",
+        },
+        Object {
+          "age": 25,
+          "email": "beatyneko@gmail.com",
+          "id": 2,
+          "name": "Yuki",
+        },
+        Object {
+          "age": 25,
+          "email": "beatyblood@gmail.com",
+          "id": 3,
+          "name": "Yuki",
+        },
+      ]
+    }
+  />
+</WithStyles(ForwardRef(Paper))>
+`;
