@@ -1,6 +1,6 @@
 {
   "name": "endata-components",
-  "version": "1.0.0-rc",
+  "version": "1.0.1-rc",
   "main": "build/index.js",
   "module": "build/index.es.js",
   "jsnext:main": "build/index.es.js",
