@@ -1,20 +1,22 @@
-export { default as CheckboxField } from './Formik/CheckboxField'
-export { default as CheckboxGroupField } from './Formik/CheckboxGroupField'
-export { default as ComboBoxField } from './Formik/ComboBoxField'
-export { default as DateField } from './Formik/DateField'
-export { default as DateTimeField } from './Formik/DateTimeField'
-export { default as EditorField } from './Formik/EditorField'
-export { default as FileField } from './Formik/FileField'
-export { default as InfoField } from './Formik/InfoField'
+export { default as TextField } from './Formik/TextField'
+export { default as TextAreaField } from './Formik/TextAreaField'
 export { default as MoneyField } from './Formik/MoneyField'
 export { default as PhoneField } from './Formik/PhoneField'
 export { default as PostcodeField } from './Formik/PostcodeField'
 export { default as SelectField } from './Formik/SelectField'
-export { default as SwitchField } from './Formik/SwitchField'
-export { default as TextAreaField } from './Formik/TextAreaField'
-export { default as TextField } from './Formik/TextField'
-export { default as TimeField } from './Formik/TimeField'
+export { default as InfoField } from './Formik/InfoField'
 
-// export * from './Formik'
-// chagnes
-// more
+// export { default as DateField } from './DateField'
+// export { default as TimeField } from './TimeField'
+// export { default as DateTimeField } from './DateTimeField'
+
+// export { default as ComboBoxField } from './ComboBoxField'
+
+// export { default as EditorField } from './EditorField'
+
+// export { default as CheckboxField } from './CheckboxField'
+// export { default as CheckboxGroupField } from './CheckboxGroupField'
+
+// export { default as FileField } from './FileField'
+
+// export { default as SwitchField } from './SwitchField'

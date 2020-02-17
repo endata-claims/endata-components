@@ -1,16 +1,21 @@
 import React from 'react'
 
-import { TimePicker, TimePickerProps } from 'formik-material-ui-pickers'
+import { Field } from 'formik'
+import { TimePicker } from 'formik-material-ui-pickers'
+import { TimePickerProps } from '@material-ui/pickers'
 import { InputAdornment } from '@material-ui/core'
 
 export type TimeFieldProps = Omit<TimePickerProps, 'variant'> & {
+  name: string
+
   variant: 'standard' | 'outlined' | 'filled'
   startAdornment?: React.ReactElement
-  endAdornment?: React.ReactElement
+  endAdornment?: React.ReactElement,
 }
+
 const TimeField: React.FC<TimeFieldProps> = ({ variant, startAdornment, endAdornment, ...props }) => {
   return (
-    <TimePicker
+    <Field component={TimePicker}
       {...props}
       variant='inline'
       inputVariant={variant}

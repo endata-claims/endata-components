@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectField tests snapshots should render with icon 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "dirty": false,
+      "errors": Object {},
+      "getFieldHelpers": [Function],
+      "getFieldMeta": [Function],
+      "getFieldProps": [Function],
+      "handleBlur": [Function],
+      "handleChange": [Function],
+      "handleReset": [Function],
+      "handleSubmit": [Function],
+      "initialErrors": Object {},
+      "initialStatus": undefined,
+      "initialTouched": Object {},
+      "initialValues": Object {
+        "select": "",
+      },
+      "isSubmitting": false,
+      "isValid": true,
+      "isValidating": false,
+      "registerField": [Function],
+      "resetForm": [Function],
+      "setErrors": [Function],
+      "setFieldError": [Function],
+      "setFieldTouched": [Function],
+      "setFieldValue": [Function],
+      "setFormikState": [Function],
+      "setStatus": [Function],
+      "setSubmitting": [Function],
+      "setTouched": [Function],
+      "setValues": [Function],
+      "status": undefined,
+      "submitCount": 0,
+      "submitForm": [Function],
+      "touched": Object {},
+      "unregisterField": [Function],
+      "validateField": [Function],
+      "validateForm": [Function],
+      "validateOnBlur": true,
+      "validateOnChange": true,
+      "validateOnMount": false,
+      "values": Object {
+        "select": "",
+      },
+    }
+  }
+>
+  <Form>
+    <FormikSelectField
+      label="Text field"
+      name="text"
+      startAdornment={<Memo(YouTubeIcon) />}
+    />
+  </Form>
+</ContextProvider>
+`;
+
+exports[`SelectField tests snapshots should render with options 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "dirty": false,
+      "errors": Object {},
+      "getFieldHelpers": [Function],
+      "getFieldMeta": [Function],
+      "getFieldProps": [Function],
+      "handleBlur": [Function],
+      "handleChange": [Function],
+      "handleReset": [Function],
+      "handleSubmit": [Function],
+      "initialErrors": Object {},
+      "initialStatus": undefined,
+      "initialTouched": Object {},
+      "initialValues": Object {
+        "select": "",
+      },
+      "isSubmitting": false,
+      "isValid": true,
+      "isValidating": false,
+      "registerField": [Function],
+      "resetForm": [Function],
+      "setErrors": [Function],
+      "setFieldError": [Function],
+      "setFieldTouched": [Function],
+      "setFieldValue": [Function],
+      "setFormikState": [Function],
+      "setStatus": [Function],
+      "setSubmitting": [Function],
+      "setTouched": [Function],
+      "setValues": [Function],
+      "status": undefined,
+      "submitCount": 0,
+      "submitForm": [Function],
+      "touched": Object {},
+      "unregisterField": [Function],
+      "validateField": [Function],
+      "validateForm": [Function],
+      "validateOnBlur": true,
+      "validateOnChange": true,
+      "validateOnMount": false,
+      "values": Object {
+        "select": "",
+      },
+    }
+  }
+>
+  <Form>
+    <FormikSelectField
+      label="Text field"
+      name="text"
+      options={
+        Array [
+          Object {
+            "label": "Red",
+            "value": "red",
+          },
+          Object {
+            "label": "Blue",
+            "value": "blue",
+          },
+        ]
+      }
+    />
+  </Form>
+</ContextProvider>
+`;
+
+exports[`SelectField tests snapshots should render with right icon 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "dirty": false,
+      "errors": Object {},
+      "getFieldHelpers": [Function],
+      "getFieldMeta": [Function],
+      "getFieldProps": [Function],
+      "handleBlur": [Function],
+      "handleChange": [Function],
+      "handleReset": [Function],
+      "handleSubmit": [Function],
+      "initialErrors": Object {},
+      "initialStatus": undefined,
+      "initialTouched": Object {},
+      "initialValues": Object {
+        "select": "",
+      },
+      "isSubmitting": false,
+      "isValid": true,
+      "isValidating": false,
+      "registerField": [Function],
+      "resetForm": [Function],
+      "setErrors": [Function],
+      "setFieldError": [Function],
+      "setFieldTouched": [Function],
+      "setFieldValue": [Function],
+      "setFormikState": [Function],
+      "setStatus": [Function],
+      "setSubmitting": [Function],
+      "setTouched": [Function],
+      "setValues": [Function],
+      "status": undefined,
+      "submitCount": 0,
+      "submitForm": [Function],
+      "touched": Object {},
+      "unregisterField": [Function],
+      "validateField": [Function],
+      "validateForm": [Function],
+      "validateOnBlur": true,
+      "validateOnChange": true,
+      "validateOnMount": false,
+      "values": Object {
+        "select": "",
+      },
+    }
+  }
+>
+  <Form>
+    <FormikSelectField
+      endAdornment={<Memo(YouTubeIcon) />}
+      label="Text field"
+      name="text"
+    />
+  </Form>
+</ContextProvider>
+`;
+
+exports[`SelectField tests snapshots should render without options 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "dirty": false,
+      "errors": Object {},
+      "getFieldHelpers": [Function],
+      "getFieldMeta": [Function],
+      "getFieldProps": [Function],
+      "handleBlur": [Function],
+      "handleChange": [Function],
+      "handleReset": [Function],
+      "handleSubmit": [Function],
+      "initialErrors": Object {},
+      "initialStatus": undefined,
+      "initialTouched": Object {},
+      "initialValues": Object {
+        "select": "",
+      },
+      "isSubmitting": false,
+      "isValid": true,
+      "isValidating": false,
+      "registerField": [Function],
+      "resetForm": [Function],
+      "setErrors": [Function],
+      "setFieldError": [Function],
+      "setFieldTouched": [Function],
+      "setFieldValue": [Function],
+      "setFormikState": [Function],
+      "setStatus": [Function],
+      "setSubmitting": [Function],
+      "setTouched": [Function],
+      "setValues": [Function],
+      "status": undefined,
+      "submitCount": 0,
+      "submitForm": [Function],
+      "touched": Object {},
+      "unregisterField": [Function],
+      "validateField": [Function],
+      "validateForm": [Function],
+      "validateOnBlur": true,
+      "validateOnChange": true,
+      "validateOnMount": false,
+      "values": Object {
+        "select": "",
+      },
+    }
+  }
+>
+  <Form>
+    <FormikSelectField
+      label="Text field"
+      name="text"
+    />
+  </Form>
+</ContextProvider>
+`;

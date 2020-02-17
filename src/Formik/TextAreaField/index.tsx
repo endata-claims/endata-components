@@ -2,9 +2,12 @@ import React from 'react'
 
 import TextField, { FormikTextFieldProps } from '../TextField'
 
-const FormikTextAreaField: React.FC<FormikTextFieldProps> = props => {
+export type FormikTextAreaFieldProps = FormikTextFieldProps
+
+const FormikTextAreaField: React.FC<FormikTextAreaFieldProps> = props => {
   return (
-    <TextField {...props}
+    <TextField
+      {...props}
       multiline
     />
   )

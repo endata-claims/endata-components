@@ -1,25 +1,32 @@
 import React from 'react'
 
-import TextField, { FormikTextFieldProps } from './TextField'
+import TextField, { FormikTextFieldProps } from '../TextField'
 import { MenuItem } from '@material-ui/core'
 
-export type FormikSelectField = FormikTextFieldProps & {
-  options?: Option[]
+export type FormikSelectFieldProps = FormikTextFieldProps & {
+  options?: SelectOption[]
 }
-export type Option = {
+export type SelectOption = {
   label?: string
   value: string
-  // group?: string
 }
-const FormikInfoField: React.FC<FormikSelectField> = ({ options, ...props }) => {
+
+const FormikSelectField: React.FC<FormikSelectFieldProps> = ({ options, ...props }) => {
   return (
     <TextField {...props} select>
-      {options && options.map(({ label, value }) => (
-        <MenuItem value={value} key={value}>
-          {label}
-        </MenuItem>
-      ))}
+      {options
+        ? options.map(({ label, value }) => (
+          <MenuItem key={value} value={value}>
+            {label}
+          </MenuItem>
+        ))
+        : (
+          <MenuItem disabled>
+            No option
+          </MenuItem>
+        )
+      }
     </TextField>
   )
 }
-export default FormikInfoField
+export default FormikSelectField

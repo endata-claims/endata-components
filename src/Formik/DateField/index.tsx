@@ -1,16 +1,21 @@
 import React from 'react'
 
-import { DatePicker, DatePickerProps } from 'formik-material-ui-pickers'
+import { Field } from 'formik'
+import { DatePicker } from 'formik-material-ui-pickers'
+import { DatePickerProps } from '@material-ui/pickers'
 import { InputAdornment } from '@material-ui/core'
 
 export type DateFieldProps = Omit<DatePickerProps, 'variant'> & {
+  name: string
+
   variant: 'standard' | 'outlined' | 'filled'
   startAdornment?: React.ReactElement
   endAdornment?: React.ReactElement,
 }
+
 const DateField: React.FC<DateFieldProps> = ({ variant, startAdornment, endAdornment, ...props }) => {
   return (
-    <DatePicker
+    <Field component={DatePicker}
       {...props}
       variant='inline'
       inputVariant={variant}
