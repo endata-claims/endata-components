@@ -14,6 +14,13 @@ import PhoneField from './PhoneField'
 import PostcodeField from './PostcodeField'
 import DateField from './DateField'
 import TimeField from './TimeField'
+import DateTimeField from './DateTimeField'
+import SwitchField from './SwitchField'
+import ComboBoxField from './ComboBoxField'
+import EditorField from './EditorField'
+import FileField from './FileField'
+import CheckboxField from './CheckboxField'
+import CheckboxGroupField from './CheckboxGroupField'
 
 export default {
   title: 'Formik fields',
@@ -42,6 +49,8 @@ export const Default = () => {
     )
   }
 
+  const options = ['Red', 'Yellow', 'Green', 'Blue'].map(d => ({ label: d, value: d }))
+
   return (
     <MuiPickersUtilsProvider utils={DateFnsUtils}>
       <Formik
@@ -56,6 +65,14 @@ export const Default = () => {
           info: 'there is some text here as info, no edit',
           date: '',
           time: '',
+          datetime: '',
+          switch: true,
+          combo: '',
+          comboMulti: '',
+          editor: '',
+          file: '',
+          checkbox: true,
+          checkboxgroup: ''
         }}
       >
         <Form>
@@ -64,7 +81,7 @@ export const Default = () => {
             items: [
               { label: 'Info field', name: 'info', component: InfoField },
               { label: 'Text field', name: 'text', component: TextField },
-              { label: 'Select field', name: 'select', component: SelectField },
+
               { label: 'Money field', name: 'money', component: MoneyField },
               { label: 'Phone field', name: 'phone', component: PhoneField },
               { label: 'Postcode field', name: 'postcode', component: PostcodeField },
@@ -72,10 +89,47 @@ export const Default = () => {
             ]
           })}
           {renderGroup({
+            title: 'Combo',
+            items: [
+              { label: 'Select field no options', name: 'select', component: SelectField },
+              { label: 'Select field', name: 'select', component: SelectField, options },
+              { label: 'ComboBox', name: 'combo', component: ComboBoxField, options },
+              {
+                component: ComboBoxField,
+                label: 'Multi ComboBox', name: 'comboMulti',
+                options, multiple: true
+              },
+            ]
+          })}
+          {renderGroup({
             title: 'Date time pickers',
             items: [
               { label: 'Date', name: 'date', component: DateField },
               { label: 'Time', name: 'time', component: TimeField },
+              { label: 'DateTime', name: 'datetime', component: DateTimeField },
+            ]
+          })}
+          {renderGroup({
+            title: 'Others',
+            items: [
+              { label: 'Switch', name: 'switch', component: SwitchField },
+              {
+                component: FileField, xs: 4,
+                label: 'File', name: 'file'
+              },
+              {
+                component: CheckboxField,
+                label: 'Checkbox', name: 'checkbox'
+              },
+              {
+                component: CheckboxGroupField,
+                label: 'Checkbox Groups', name: 'checkboxgroup',
+                options
+              },
+              {
+                component: EditorField, xs: 8,
+                label: 'Editor', name: 'editor'
+              },
             ]
           })}
         </Form>
