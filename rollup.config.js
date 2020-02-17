@@ -42,7 +42,12 @@ export default {
           'PropTypes',
           'createElement'
         ],
-        'node_modules/react-dom/index.js': ['render']
+        'node_modules/react-dom/index.js': ['render'],
+        'node_modules/react-is/index.js': [
+          'isElement',
+          'isValidElementType',
+          'ForwardRef'
+        ]
       }
     }),
     sass({
