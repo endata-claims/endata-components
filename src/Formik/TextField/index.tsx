@@ -7,14 +7,15 @@ import { InputAdornment } from '@material-ui/core'
 
 export type FormikTextFieldProps = TextFieldProps & {
   name: string
+
   startAdornment?: React.ReactElement
   endAdornment?: React.ReactElement
   readOnly?: boolean
 }
-const FormikTextField: React.FC<FormikTextFieldProps> = ({ startAdornment, endAdornment, InputProps, readOnly = false, ...props }) => {
+
+const FormikTextField: React.FC<FormikTextFieldProps> = ({ startAdornment, endAdornment, InputProps, ...props }) => {
   return (
-    <Field
-      component={TextField}
+    <Field component={TextField}
       {...props}
       InputProps={{
         ...InputProps,
@@ -28,7 +29,6 @@ const FormikTextField: React.FC<FormikTextFieldProps> = ({ startAdornment, endAd
             {endAdornment}
           </InputAdornment>
         ),
-        readOnly
       }}
     />
   )
