@@ -6,6 +6,8 @@ export { default as Table } from './Table'
 
 export * from './styles'
 
+export { default as Info } from './Info'
+
 /**
  * Formik and Material UI integration with props normalized
  */
