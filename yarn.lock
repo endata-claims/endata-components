@@ -5196,10 +5196,10 @@ format@^0.2.0:
   resolved "https://registry.yarnpkg.com/format/-/format-0.2.2.tgz#d6170107e9efdc4ed30c9dc39016df942b5cb58b"
   integrity sha1-1hcBB+nv3E7TDJ3DkBbflCtctYs=
 
-formik-material-ui-pickers@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/formik-material-ui-pickers/-/formik-material-ui-pickers-0.0.8.tgz#203e602b71eff4a1f28ef40c4c7989a63fc5ff07"
-  integrity sha512-4/5Fcxe+Bi/6g0nA+ZE1U/D+W8s8yEiictA5w/vLPDab9P9uoktXFjEy2TfKQhfeUP4krYIt6U2tNNZuhRwoIg==
+formik-material-ui-pickers@^0.0.12:
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/formik-material-ui-pickers/-/formik-material-ui-pickers-0.0.12.tgz#a53ed18a0a258c2283bba44e769c73ebbed8dd9b"
+  integrity sha512-Xac992DrLW7MWn+L7Qcc8R4VkJjevaXU7iM3byLbnvM+pIWYGbUWIJrhejGevRgPAZn9Nj17Q8aH1peA33tpng==
 
 formik-material-ui@^2.0.0-beta.0:
   version "2.0.0-beta.1"
