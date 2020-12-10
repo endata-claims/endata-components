@@ -17,7 +17,7 @@
     "date-fns": "^2.9.0",
     "formik": "^2.1.4",
     "formik-material-ui": "^2.0.0-beta.0",
-    "formik-material-ui-pickers": "^0.0.8",
+    "formik-material-ui-pickers": "^0.0.12",
     "react-number-format": "^4.3.1",
     "react-rte": "^0.16.1",
     "react-table": "^7.0.0-rc.16"
